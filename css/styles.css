@@ -1,0 +1,342 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header.bd-navbar {
+  background-color: rgba(107,54,34,100);
+}
+
+.header button {
+  font-size: 40px;
+  border: 1px solid #FFA22B;
+  color: #FFA22B;
+}
+
+.header .navegacion ul li a {
+  color: #FFA22B;
+  text-decoration: none;
+}
+.header .navbar-toggler-icon {
+  color: #FFA22B;
+}
+
+.footer {
+  background: rgb(250,170,72);
+}
+
+.footer a {
+  color: #873622;
+  text-decoration: none;
+}
+
+.footer img {
+  width: 150px;
+  height: 100px;
+}
+
+.footer .footer-ubicacion p,
+.footer .footer-redes-sociales li {  
+  color: #873622;
+}
+
+.footer .footer-redes-sociales span {  
+  color: #e6107e;
+}
+/* .carrusel {
+  height: 100vh;
+} */
+.carrusel .carousel-item {
+  /* background-image: url('../multimedia/image/costillar-de-cordero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; */
+  /* object-fit: fill; */  
+  height: 80vh;
+  width: 100%;
+  overflow: hidden;
+}
+/**************************************************/
+/***** Formulario (FORM) **************************/
+/**************************************************/
+#contacto .contacto-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contacto .contacto-section h1 {
+  color: #6b3622;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+#contacto .contacto-section .contacto-form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contacto .contacto-section .contacto-form .contacto-form-inputs {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+#contacto .contacto-section .contacto-form .contacto-form-inputs input {
+  width: 400px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+#contacto .contacto-section .contacto-form .contacto-form-inputs input:focus {
+  outline: none;
+}
+#contacto .contacto-section .contacto-form .contacto-form-inputs select {
+  width: 200px;
+  margin-bottom: 15px;
+  padding: 10px;
+  align-self: flex-start;
+  display: block;
+}
+#contacto .contacto-section .contacto-form .contacto-form-inputs textarea {
+  width: 400px;
+  margin-bottom: 15px;  
+  align-self: flex-start;
+  display: block;
+}
+#contacto .contacto-section .contacto-form .contacto-form-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+#contacto .contacto-section .contacto-form .contacto-form-buttons input {
+  padding: 10px 15px;
+  background-color: #6b3622;
+  color: #fff;
+  border: none;
+  border: 1px solid gray;
+  font-weight: 500;
+  border-radius: 10px;
+}
+#contacto .contacto-section .contacto-form .contacto-form-buttons input:hover {
+  background-color: #e6107e;
+  cursor: pointer;
+}
+/***********************************************************/
+/***** Opción Nosotros (Nosotros) **************************/
+/***********************************************************/
+#nosotros {
+  display: flex;
+  justify-content: center;
+}
+#nosotros .nosotros-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width: 60%;
+}
+#nosotros .nosotros-section .nosotros-content {
+  margin-right: 20px;
+}
+#nosotros .nosotros-section .nosotros-content h1 {
+  margin-bottom: 20px;
+  color: #6b3622;
+}
+#nosotros .nosotros-section .nosotros-img img {
+  width: 400px;
+  height: 250px;
+}
+/***********************************************************/
+/***** Sección Reserva *************************************/
+/***********************************************************/
+.reserva {
+  background-color: whitesmoke;
+}
+
+.reserva .reserva-contenido {
+  background-color: #FFF9EF;
+}
+
+.reserva .reserva-contenido button {
+  background-color: #6b3622;
+  color: #fff;
+}
+
+.reserva .reserva-contenido button:hover {
+  background-color: #e6107e ;
+  cursor: pointer;
+}
+
+.reserva .reserva-contenido h2 {
+  color: #e6107e;
+  font-weight: 700;
+}
+
+#reserva .reserva-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+#reserva .reserva-content .reserva-title {  
+  margin-bottom: 30px;
+  margin-top: 50px;
+  color: #6B3622;
+}
+#reserva .reserva-content .reserva-form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+#reserva .reserva-content .reserva-form .reserva-form-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+#reserva .reserva-content .reserva-form .reserva-form-item input {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-top: 15px;
+}
+
+#reserva .reserva-content .reserva-form .reserva-form-item input:focus {
+  outline: none;
+}
+
+#reserva .reserva-content .reserva-form .reserva-form-item button {
+  width: 120px;
+  padding: 10px 5px;
+  background-color: #6B3622;
+  border: 1px solid gray;
+  color: #fff;
+  font-weight: 600;
+  align-self: center;
+  border-radius: 10px;
+}
+
+#reserva .reserva-content .reserva-form .reserva-form-item button:hover {
+  background-color: #e6107e;
+  cursor: pointer;
+}
+
+.sucursal {
+  background-color: #fffaf0;
+}
+
+.sucursal h1 {  
+  color: darkorange;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.sucursal figure img {
+  width: 400px;
+  height: 300px;
+}
+
+.sucursal figure figcaption {
+  color: #6b3622;
+}
+
+#ambiente div img{
+  width: 400px;
+  height: 300px;
+}
+
+/***************************************************/
+/***** Opción menu (Menu) **************************/
+/***************************************************/
+.menu__title {
+  text-align: center;
+  color: coral;
+  font-weight: 700;
+  font-size: 2.4rem;
+  padding: 40px;
+}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media only screen and (max-width: 1199.98px) {
+  .carrusel .carousel-item {
+    /* background-image: url('../multimedia/image/costillar-de-cordero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    /* object-fit: fill; */  
+    height: 60vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  #nosotros .nosotros-section {
+    width: 80%;
+  }
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media only screen and (max-width: 991.98px) {
+  #nosotros .nosotros-section {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #nosotros .nosotros-section .nosotros-content {
+    width: 100%;
+  }
+  #nosotros .nosotros-section .nosotros-img img {
+    width: 300px;
+    height: 200px;
+  }
+  
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 575.98px) {
+  .carrusel .carousel-item {
+    /* background-image: url('../multimedia/image/costillar-de-cordero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    /* object-fit: fill; */  
+    height: 40vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  #contacto .contacto-section .contacto-form {
+    align-items: stretch;
+    width: 90%;
+  }
+  #contacto .contacto-section .contacto-form .contacto-form-inputs input {
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  #contacto .contacto-section .contacto-form .contacto-form-inputs select {
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 10px;
+    align-self: center;
+  }
+  #contacto .contacto-section .contacto-form .contacto-form-inputs textarea {
+    width: 90%;
+    margin-bottom: 15px;  
+    align-self: center;
+  }
+  #contacto .contacto-section .contacto-form .contacto-form-buttons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  #nosotros .nosotros-section .nosotros-content {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 120%;
+  }
+  #reserva .reserva-content .reserva-form {
+    width: 90%;
+  }
+}

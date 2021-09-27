@@ -1,0 +1,600 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Estilos a etiquetas */
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto; 
+}
+
+header {
+  background-color: lavender;
+}
+
+table caption {
+  background-color: peru;
+  color: white;
+  font-weight: bold;
+}
+
+/* Estilos a los selectores de clases */
+#ambiente .ambiente-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 30px 50px;
+  justify-items: center;
+  row-gap: 10px;  
+}
+
+#ambiente .ambiente-content div img{
+  width: 400px;
+  height: 300px;
+}
+
+/*********************************************/
+/***** Cabecera (HEADER) *********************/
+/*********************************************/
+.header {
+  background-color: rgba(107,54,34,100);
+}
+
+.header img {
+  width: 150px;
+  height: 100px;
+  vertical-align: middle;
+}
+
+.header .navegacion ul {
+  display: flex;    
+  list-style-type: none;
+}
+
+.header .navegacion ul .menu {
+  display: flex;
+  flex-grow: 1;  
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header .navegacion ul li a {
+  color: #FFA22B;
+  text-decoration: none;
+}
+
+/**************************************************/
+/***** Pie de página (FOOTER) *********************/
+/**************************************************/
+
+.footer {
+  /* background-color: #fff4e0; */
+  background: rgb(250,170,72);
+  background: linear-gradient(49deg, rgba(250,170,72,1) 20%, rgba(241,219,180,1) 68%, rgba(255,244,224,1) 89%);
+  padding: 50px 20px;
+  font-size: 1.4rem;
+
+  display: flex;
+  justify-content: space-around;
+  color: #873622;
+}
+
+.footer img {
+  width: 150px;
+  height: 100px;
+}
+
+.footer .footer-ubicacion p {
+  margin-bottom: 16px;
+  color: #873622;
+}
+
+.footer .footer-menu ul {
+  list-style: none;
+}
+
+.footer .footer-menu ul li {
+  margin-bottom: 16px;
+}
+
+.footer .footer-menu ul li a {
+  text-decoration: none;
+  color: #873622;
+}
+
+.footer .footer-redes-sociales span  {
+  margin-bottom: 16px;
+  color: #e6107e;
+}
+
+.footer .footer-redes-sociales ul {
+  list-style: none;
+}
+
+.footer .footer-redes-sociales ul {
+  margin-top: 16px;
+}
+.footer .footer-redes-sociales ul li  {
+  margin-bottom: 16px;
+}
+
+
+
+/**************************************************/
+/***** Formulario (FORM) **************************/
+/**************************************************/
+#contacto .contacto-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contacto .contacto-section h1 {
+  color: #6b3622;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+#contacto .contacto-section .contacto-form .contacto-form-inputs {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+#contacto .contacto-section .contacto-form .contacto-form-inputs input {
+  width: 400px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+#contacto .contacto-section .contacto-form .contacto-form-inputs input:focus {
+  outline: none;
+}
+#contacto .contacto-section .contacto-form .contacto-form-inputs select {
+  width: 200px;
+  margin-bottom: 15px;
+  padding: 10px;
+  align-self: flex-start;
+}
+#contacto .contacto-section .contacto-form .contacto-form-inputs textarea {
+  width: 400px;
+  margin-bottom: 15px;  
+  align-self: flex-start;
+}
+#contacto .contacto-section .contacto-form .contacto-form-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+#contacto .contacto-section .contacto-form .contacto-form-buttons input {
+  padding: 10px 15px;
+  background-color: #6b3622;
+  color: #fff;
+  border: none;
+  border: 1px solid gray;
+  font-weight: 500;
+  border-radius: 10px;
+}
+#contacto .contacto-section .contacto-form .contacto-form-buttons input:hover {
+  background-color: #e6107e;
+  cursor: pointer;
+}
+/* #contacto .contacto-section .contacto-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+/* 
+.form-contacto h1{
+  color: blue;
+}
+
+.form-contacto label {
+  color: cadetblue;
+  font-weight: bold;
+} */
+
+/***************************************************/
+/***** Opción menu (Menu) **************************/
+/***************************************************/
+.menu-almuerzo-main {
+  width: 80%;
+  margin: 0 auto;
+}
+.menu-almuerzo-main .menu-almuerzo-title {
+  text-align: center;
+  color: coral;
+  font-weight: 700;
+  font-size: 2.4rem;
+  padding: 40px;
+}
+
+.menu-almuerzo-main .menu-almuerzo-list-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+  /* grid-template-rows: repeat(5, auto); */
+  gap: 1.6rem;
+}
+
+.menu-almuerzo-main 
+.menu-almuerzo-list-items 
+.menu-almuerzo-group-one-item {
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+  gap: 50px 0;
+}
+
+.menu-almuerzo-main 
+.menu-almuerzo-list-items 
+.menu-almuerzo-group-two-item {
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+  gap: 50px 0;
+}
+
+.menu-almuerzo-main 
+.menu-almuerzo-list-items 
+.menu-almuerzo-group-three-item {
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+  gap: 50px 0;
+}
+
+.menu-almuerzo-main 
+.menu-almuerzo-list-items 
+.menu-almuerzo-group-one-item
+.menu-almuerzo-item-img {
+  grid-row: 1 / 4;
+  grid-template-rows: repeat(5, auto);
+}
+
+.menu-almuerzo-main 
+.menu-almuerzo-list-items 
+.menu-almuerzo-group-three-item
+.menu-almuerzo-item-img {
+  grid-row: 3 / 6;
+  grid-template-rows: repeat(5, auto);
+}
+
+.menu-almuerzo-main 
+.menu-almuerzo-list-items 
+.menu-almuerzo-item-img {
+  display: flex;
+  flex-direction: column;  
+}
+
+.menu-almuerzo-main 
+.menu-almuerzo-list-items 
+.menu-almuerzo-item-img
+.img {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-almuerzo-main .menu-almuerzo-item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.table-main {
+  padding: 50px 0;    
+}
+
+.table-main table {
+  margin: 0 auto;
+  width: 7s00px;
+}
+
+
+/***********************************************************/
+/***** Opción Nosotros (Nosotros) **************************/
+/***********************************************************/
+#nosotros .nosotros-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+#nosotros .nosotros-section .nosotros-content h1 {
+  margin-bottom: 20px;
+  color: #6b3622;
+}
+#nosotros .nosotros-section .nosotros-img img {
+  width: 400px;
+  height: 250px;
+}
+
+/***********************************************************/
+/***** Sección MAIN - INDEX ********************************/
+/***********************************************************/
+#principal {
+  display: grid;
+}
+/***********************************************************/
+/***** Sección Carrusel ************************************/
+/***********************************************************/
+
+.carrusel-item {
+  background-image: url('../multimedia/image/costillar-de-cordero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* object-fit: fill; */
+  height: 60vh;
+  width: 100%;
+}
+
+/***********************************************************/
+/***** Sección Reserva *************************************/
+/***********************************************************/
+
+.reserva {
+  background-color: whitesmoke;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.reserva .reserva-contenido {      
+  border: 1px solid grey;
+  /* width: 200px; */
+  height: 300px;
+  color: black;
+  /* background-color: rgba(0,0,0, 0.568); */
+  background-color: #FFF9EF;
+  border-radius: 5%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 50px;
+}
+
+.reserva .reserva-contenido h2 {
+  margin-bottom: 10px;
+  color: #e6107e;
+}
+
+.reserva .reserva-contenido p {
+  margin-bottom: 10px;
+  color: #A3A3A3;
+}
+
+.reserva .reserva-contenido button {
+  background-color: #6b3622;
+  color: #ffffff;
+  margin-top: 50px;
+  padding: 10px;
+  width: 100px;
+  align-self: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.reserva .reserva-contenido button:hover {
+  background-color: #e6107e ;
+  cursor: pointer;
+}
+
+#reserva .reserva-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+#reserva .reserva-content .reserva-title {  
+  margin-bottom: 30px;
+  margin-top: 50px;
+  color: #6B3622;
+}
+#reserva .reserva-content .reserva-form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+#reserva .reserva-content .reserva-form .reserva-form-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+#reserva .reserva-content .reserva-form .reserva-form-item input {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-top: 15px;
+}
+
+#reserva .reserva-content .reserva-form .reserva-form-item input:focus {
+  outline: none;
+}
+
+#reserva .reserva-content .reserva-form .reserva-form-item button {
+  width: 120px;
+  padding: 10px 5px;
+  background-color: #6B3622;
+  border: 1px solid gray;
+  color: #fff;
+  font-weight: 600;
+  align-self: center;
+  border-radius: 10px;
+}
+
+#reserva .reserva-content .reserva-form .reserva-form-item button:hover {
+  background-color: #e6107e;
+  cursor: pointer;
+}
+/*************************************************************/
+/***** Sección Sucursal **************************************/
+/*************************************************************/
+
+.sucursal {
+  background-color:#fffaf0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+.sucursal h1 {  
+  color: darkorange;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.sucursal figure {
+  margin: 10px;
+}
+
+.sucursal figure img {
+  width: 400px;
+  height: 300px;
+}
+.sucursal figure figcaption {
+  color: #6b3622;
+}
+.sucursal .sucursal-sedes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sucursal .sucursal-sedes .sucursal-img:hover img {
+  transform: scale(1.3);
+}
+
+.sucursal .sucursal-sedes .sucursal-img {
+  overflow: hidden;
+}
+
+#ubicacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ubicacion .ubicacion-section .ubicacion-content {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+}
+#ubicacion .ubicacion-section .ubicacion-content .ubicacion-descripcion h2,
+#ubicacion .ubicacion-section .ubicacion-content .ubicacion-descripcion p {
+  margin-bottom: 10px;
+}
+#ubicacion .ubicacion-section .ubicacion-content .ubicacion-mapa {
+  margin-right: 20px;
+}
+
+/*************************************************************/
+/***** Media Querys ******************************************/
+/*************************************************************/
+@media only screen and (max-width: 1024px)
+{
+  .footer {    
+    padding: 2rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 768px)
+{
+  .carrusel-main {
+    display: flex;
+  }
+  .carrusel-item {
+    height: 50vh;
+    background-attachment: initial;    
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    padding: 0px 20px 50px 20px;
+  }
+
+  .footer .footer-logo {
+    grid-column: 1 / 4;
+    justify-self: center;
+    padding: 1.6rem 0;
+  }
+
+  .footer .footer-menu {
+    justify-self: center;
+  }
+  .footer .footer-ubicacion {
+    justify-self: center;
+  }
+  .footer .footer-redes-sociales {
+    justify-self: center;
+  }
+
+}
+
+@media only screen and (max-width: 580px)
+{
+  .header .logo {
+    display: none;
+  }
+
+  .header .navegacion ul .menu {    
+    padding: 10px 0;
+  }
+
+  .carrusel-item {
+    height: 40vh;    
+    background-attachment: initial;    
+  }
+
+  .reserva .reserva-contenido {          
+    padding: 20px 10px;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr auto;
+    padding: 50px 25%;
+  }
+
+  .footer .footer-logo {    
+    grid-column: 1 / 2;    
+  }  
+
+  .footer .footer-menu {
+    justify-self: stretch;
+    border-top: 1px solid grey;
+    padding-top: 10px;
+    
+  }
+
+  .footer .footer-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer .footer-redes-sociales {
+    justify-self: stretch;
+    border-top: 1px solid grey;
+    padding-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
