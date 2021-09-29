@@ -257,6 +257,15 @@
   padding: 40px;
 }
 
+/***************************************************/
+/***** Opción Ubicación ****************************/
+/***************************************************/
+
+#ubicacion .ubicacion-mapa iframe {
+  width: 500px;
+  height: 400px;
+}
+
 /* `xl` applies to large devices (desktops, less than 1200px) */
 @media only screen and (max-width: 1199.98px) {
   .carrusel .carousel-item {
@@ -338,5 +347,15 @@
   }
   #reserva .reserva-content .reserva-form {
     width: 90%;
+  }
+
+  #ubicacion .ubicacion-mapa iframe {
+    width: 300px;
+    height: 250px;
+  }
+
+  #ubicacion .ubicacion-content {
+    display: flex;
+    flex-direction: column;
   }
 }
