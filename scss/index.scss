@@ -1,0 +1,26 @@
+/* IMPORTS */
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap";
+
+/* GLOBALS */
+@import "./variables";
+@import "./global";
+/* BOOTSTRAP */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+/* PARTIALS */
+// @import "./partials/button";
+// @import "./partials/carrusel";
+// @import "./partials/footer";
+// @import "./partials/header";
+// @import "./partials/navegacion";
+// @import "./partials/reserva";
+// @import "./partials/sucursal";
+
+/* PAGES */
+@import "./pages/ambiente";
+@import "./pages/contacto";
+@import "./pages/menu";
+@import "./pages/nosotros";
+@import "./pages/reservas";
+@import "./pages/ubicacion";
+@import "./pages/home";

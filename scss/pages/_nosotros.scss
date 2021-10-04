@@ -1,0 +1,24 @@
+/***********************************************************/
+/***** Opción Nosotros (Nosotros) **************************/
+/***********************************************************/
+#nosotros {
+    display: flex;
+    justify-content: center;
+}
+#nosotros .nosotros-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 60%;
+}
+#nosotros .nosotros-section .nosotros-content {
+    margin-right: 20px;
+}
+#nosotros .nosotros-section .nosotros-content h1 {
+    margin-bottom: 20px;
+    color: #6b3622;
+}
+#nosotros .nosotros-section .nosotros-img img {
+    width: 400px;
+    height: 250px;
+}

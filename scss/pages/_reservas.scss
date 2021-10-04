@@ -1,0 +1,49 @@
+#reserva .reserva-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+  }
+  
+  #reserva .reserva-content .reserva-title {  
+    margin-bottom: 30px;
+    margin-top: 50px;
+    color: #6B3622;
+  }
+  #reserva .reserva-content .reserva-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+  
+  #reserva .reserva-content .reserva-form .reserva-form-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  
+  #reserva .reserva-content .reserva-form .reserva-form-item input {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 15px;
+  }
+  
+  #reserva .reserva-content .reserva-form .reserva-form-item input:focus {
+    outline: none;
+  }
+  
+  #reserva .reserva-content .reserva-form .reserva-form-item button {
+    width: 120px;
+    padding: 10px 5px;
+    background-color: #6B3622;
+    border: 1px solid gray;
+    color: #fff;
+    font-weight: 600;
+    align-self: center;
+    border-radius: 10px;
+  }
+  
+  #reserva .reserva-content .reserva-form .reserva-form-item button:hover {
+    background-color: #e6107e;
+    cursor: pointer;
+  }

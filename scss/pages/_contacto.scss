@@ -1,0 +1,64 @@
+/**************************************************/
+/***** Formulario (FORM) **************************/
+/**************************************************/
+#contacto .contacto-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contacto .contacto-section h1 {
+    color: #6b3622;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+#contacto .contacto-section .contacto-form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contacto .contacto-section .contacto-form .contacto-form-inputs {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+#contacto .contacto-section .contacto-form .contacto-form-inputs input {
+    width: 400px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+#contacto .contacto-section .contacto-form .contacto-form-inputs input:focus {
+    outline: none;
+}
+#contacto .contacto-section .contacto-form .contacto-form-inputs select {
+    width: 200px;
+    margin-bottom: 15px;
+    padding: 10px;
+    align-self: flex-start;
+    display: block;
+}
+#contacto .contacto-section .contacto-form .contacto-form-inputs textarea {
+    width: 400px;
+    margin-bottom: 15px;  
+    align-self: flex-start;
+    display: block;
+}
+#contacto .contacto-section .contacto-form .contacto-form-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+#contacto .contacto-section .contacto-form .contacto-form-buttons input {
+    padding: 10px 15px;
+    background-color: #6b3622;
+    color: #fff;
+    border: none;
+    border: 1px solid gray;
+    font-weight: 500;
+    border-radius: 10px;
+}
+#contacto .contacto-section .contacto-form .contacto-form-buttons input:hover {
+    background-color: #e6107e;
+    cursor: pointer;
+}

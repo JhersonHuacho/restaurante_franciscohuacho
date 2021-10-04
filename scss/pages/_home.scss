@@ -1,0 +1,207 @@
+/***********************************************************/
+/***** Sección Header **************************************/
+/***********************************************************/
+.header.bd-navbar {
+  background-color: rgba(107,54,34,100);
+}
+
+.header button {
+  font-size: 40px;
+  border: 1px solid $color-text-nav;
+  color: $color-text-nav;
+}
+
+.header .navegacion ul li a {
+  color: $color-text-nav;
+  text-decoration: none;
+}
+.header .navbar-toggler-icon {
+  color: $color-text-nav;
+}
+/***********************************************************/
+/***** Sección Footer **************************************/
+/***********************************************************/
+.footer {
+  background: $background-color-footer;
+}
+
+.footer a {
+  color: $color-text-primary;
+  text-decoration: none;
+}
+
+.footer img {
+  width: 150px;
+  height: 100px;
+  vertical-align: middle;
+}
+
+.footer .footer-ubicacion p,
+.footer .footer-redes-sociales li {  
+  color: $color-text-primary;
+}
+
+.footer .footer-redes-sociales span {  
+  color: $color-text-secondary;
+}
+/************************************************************/
+/***** Sección Carrusel *************************************/
+/************************************************************/
+.carrusel .carousel-item {
+  /* background-image: url('../multimedia/image/costillar-de-cordero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; */
+  /* object-fit: fill; */  
+  height: 80vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/***********************************************************/
+/***** Sección Reserva *************************************/
+/***********************************************************/
+.reserva {
+  background-color: whitesmoke;
+}
+
+.reserva .reserva-contenido {
+  background-color: #FFF9EF;
+}
+
+.reserva .reserva-contenido button {
+  background-color: $color-text-primary;
+  color: #fff;
+}
+
+.reserva .reserva-contenido button:hover {
+  background-color: $color-text-secondary;
+  cursor: pointer;
+}
+
+.reserva .reserva-contenido h2 {
+  color: $color-text-secondary;
+  font-weight: 700;
+}
+
+/************************************************************/
+/***** Sección Sucursal *************************************/
+/************************************************************/
+
+.sucursal {
+  background-color: $background-color-sucursal;
+}
+
+.sucursal h1 {  
+  color: darkorange;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.sucursal figure img {
+  width: 400px;
+  height: 300px;
+}
+
+.sucursal figure figcaption {
+  color: #6b3622;
+}
+
+/************************************************************/
+/***** Media Querys *****************************************/
+/************************************************************/
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media only screen and (max-width: 1199.98px) {
+  .carrusel .carousel-item {
+    /* background-image: url('../multimedia/image/costillar-de-cordero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    /* object-fit: fill; */  
+    height: 60vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  #nosotros .nosotros-section {
+    width: 80%;
+  }
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media only screen and (max-width: 991.98px) {
+  #nosotros .nosotros-section {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #nosotros .nosotros-section .nosotros-content {
+    width: 100%;
+  }
+  #nosotros .nosotros-section .nosotros-img img {
+    width: 300px;
+    height: 200px;
+  }
+  
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 575.98px) {
+  .carrusel .carousel-item {
+    /* background-image: url('../multimedia/image/costillar-de-cordero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    /* object-fit: fill; */  
+    height: 40vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  #contacto .contacto-section .contacto-form {
+    align-items: stretch;
+    width: 90%;
+  }
+  #contacto .contacto-section .contacto-form .contacto-form-inputs input {
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  #contacto .contacto-section .contacto-form .contacto-form-inputs select {
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 10px;
+    align-self: center;
+  }
+  #contacto .contacto-section .contacto-form .contacto-form-inputs textarea {
+    width: 90%;
+    margin-bottom: 15px;  
+    align-self: center;
+  }
+  #contacto .contacto-section .contacto-form .contacto-form-buttons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  #nosotros .nosotros-section .nosotros-content {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 120%;
+  }
+  #reserva .reserva-content .reserva-form {
+    width: 90%;
+  }
+
+  #ubicacion .ubicacion-mapa iframe {
+    width: 300px;
+    height: 250px;
+  }
+
+  #ubicacion .ubicacion-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
