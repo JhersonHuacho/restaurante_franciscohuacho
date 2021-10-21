@@ -1,0 +1,20 @@
+/***********************************************************/
+/***** Sección Header **************************************/
+/***********************************************************/
+.header.bd-navbar {
+  background-color: rgba(107,54,34,100);
+}
+  
+.header button {
+  font-size: 40px;
+  border: 1px solid $color-text-nav;
+  color: $color-text-nav;
+}
+
+.header .navegacion ul li a {
+  color: $color-text-nav;
+  text-decoration: none;
+}
+.header .navbar-toggler-icon {
+  color: $color-text-nav;
+}

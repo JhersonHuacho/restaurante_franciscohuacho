@@ -1,0 +1,26 @@
+/***********************************************************/
+/***** Sección Footer **************************************/
+/***********************************************************/
+.footer {
+  background: $background-color-footer;
+}
+
+.footer a {
+  color: $color-text-primary;
+  text-decoration: none;
+}
+
+.footer img {
+  width: 150px;
+  height: 100px;
+  vertical-align: middle;
+}
+
+.footer .footer-ubicacion p,
+.footer .footer-redes-sociales li {  
+  color: $color-text-primary;
+}
+
+.footer .footer-redes-sociales span {  
+  color: $color-text-secondary;
+}

@@ -7922,6 +7922,46 @@ textarea.form-control-lg {
     display: none !important; } }
 
 /* PARTIALS */
+/***********************************************************/
+/***** Sección Header **************************************/
+/***********************************************************/
+.header.bd-navbar {
+  background-color: #6b3622; }
+
+.header button {
+  font-size: 40px;
+  border: 1px solid #FFA22B;
+  color: #FFA22B; }
+
+.header .navegacion ul li a {
+  color: #FFA22B;
+  text-decoration: none; }
+
+.header .navbar-toggler-icon {
+  color: #FFA22B; }
+
+/***********************************************************/
+/***** Sección Footer **************************************/
+/***********************************************************/
+.footer {
+  background: #faaa48; }
+
+.footer a {
+  color: #873622;
+  text-decoration: none; }
+
+.footer img {
+  width: 150px;
+  height: 100px;
+  vertical-align: middle; }
+
+.footer .footer-ubicacion p,
+.footer .footer-redes-sociales li {
+  color: #873622; }
+
+.footer .footer-redes-sociales span {
+  color: #e6107e; }
+
 /* PAGES */
 #ambiente div img {
   width: 400px;
@@ -8078,46 +8118,6 @@ textarea.form-control-lg {
 #ubicacion .ubicacion-mapa iframe {
   width: 500px;
   height: 400px; }
-
-/***********************************************************/
-/***** Sección Header **************************************/
-/***********************************************************/
-.header.bd-navbar {
-  background-color: #6b3622; }
-
-.header button {
-  font-size: 40px;
-  border: 1px solid #FFA22B;
-  color: #FFA22B; }
-
-.header .navegacion ul li a {
-  color: #FFA22B;
-  text-decoration: none; }
-
-.header .navbar-toggler-icon {
-  color: #FFA22B; }
-
-/***********************************************************/
-/***** Sección Footer **************************************/
-/***********************************************************/
-.footer {
-  background: #faaa48; }
-
-.footer a {
-  color: #873622;
-  text-decoration: none; }
-
-.footer img {
-  width: 150px;
-  height: 100px;
-  vertical-align: middle; }
-
-.footer .footer-ubicacion p,
-.footer .footer-redes-sociales li {
-  color: #873622; }
-
-.footer .footer-redes-sociales span {
-  color: #e6107e; }
 
 /************************************************************/
 /***** Sección Carrusel *************************************/
