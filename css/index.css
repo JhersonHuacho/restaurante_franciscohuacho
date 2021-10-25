@@ -7928,6 +7928,9 @@ textarea.form-control-lg {
 .header.bd-navbar {
   background-color: #6b3622; }
 
+.header .navbar-brand img {
+  border-radius: 5px; }
+
 .header button {
   font-size: 40px;
   border: 1px solid #FFA22B;
@@ -7935,7 +7938,9 @@ textarea.form-control-lg {
 
 .header .navegacion ul li a {
   color: #FFA22B;
-  text-decoration: none; }
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 2rem; }
 
 .header .navbar-toggler-icon {
   color: #FFA22B; }
@@ -7953,11 +7958,16 @@ textarea.form-control-lg {
 .footer img {
   width: 150px;
   height: 100px;
-  vertical-align: middle; }
+  vertical-align: middle;
+  border-radius: 5px; }
 
 .footer .footer-ubicacion p,
 .footer .footer-redes-sociales li {
   color: #873622; }
+
+.footer .footer-redes-sociales img {
+  width: 15px;
+  height: 15px; }
 
 .footer .footer-redes-sociales span {
   color: #e6107e; }
@@ -8115,13 +8125,16 @@ textarea.form-control-lg {
 #nosotros .nosotros-section .nosotros-content {
   margin-right: 20px; }
 
+#nosotros .nosotros-section .nosotros-content p {
+  line-height: 2; }
+
 #nosotros .nosotros-section .nosotros-content h1, #nosotros .nosotros-section .nosotros-content .h1 {
   margin-bottom: 20px;
   color: #6b3622; }
 
 #nosotros .nosotros-section .nosotros-img img {
-  width: 400px;
-  height: 250px; }
+  max-width: 100%;
+  height: 100%; }
 
 #reserva .reserva-content {
   display: flex;

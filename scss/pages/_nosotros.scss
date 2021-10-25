@@ -14,11 +14,16 @@
 #nosotros .nosotros-section .nosotros-content {
     margin-right: 20px;
 }
+#nosotros .nosotros-section .nosotros-content p {
+    line-height: 2;
+}
+
 #nosotros .nosotros-section .nosotros-content h1 {
     margin-bottom: 20px;
     color: #6b3622;
 }
 #nosotros .nosotros-section .nosotros-img img {
-    width: 400px;
-    height: 250px;
+    max-width: 100%;
+    // width: 300px;
+    height: 100%;
 }

@@ -4,6 +4,10 @@
 .header.bd-navbar {
   background-color: rgba(107,54,34,100);
 }
+
+.header .navbar-brand img  {
+  border-radius: 5px;
+}
   
 .header button {
   font-size: 40px;
@@ -14,6 +18,8 @@
 .header .navegacion ul li a {
   color: $color-text-nav;
   text-decoration: none;
+  font-weight: 900;
+  font-size: 2rem;
 }
 .header .navbar-toggler-icon {
   color: $color-text-nav;

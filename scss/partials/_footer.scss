@@ -14,11 +14,17 @@
   width: 150px;
   height: 100px;
   vertical-align: middle;
+  border-radius: 5px;
 }
 
 .footer .footer-ubicacion p,
 .footer .footer-redes-sociales li {  
   color: $color-text-primary;
+}
+
+.footer .footer-redes-sociales img {
+  width: 15px;
+  height: 15px;
 }
 
 .footer .footer-redes-sociales span {  
