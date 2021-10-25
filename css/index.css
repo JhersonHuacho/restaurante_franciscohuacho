@@ -7970,10 +7970,25 @@ textarea.form-control-lg {
 /**************************************************/
 /***** Formulario (FORM) **************************/
 /**************************************************/
-#contacto .contacto-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
+#contacto .contacto-svg {
+  width: 100px;
+  color: #e6107e; }
+
+#contacto .contacto-contenido {
+  background-color: moccasin;
+  max-width: 80rem;
+  margin: 2rem auto;
+  border: 1px solid #873622;
+  border-radius: 2.5%;
+  display: flex; }
+
+#contacto .contacto-contenido-left {
+  width: 60%; }
+
+#contacto .contacto-contenido-right {
+  width: 200px;
+  width: 40%;
+  border-radius: 5px 5% 5% 10px; }
 
 #contacto .contacto-section h1, #contacto .contacto-section .h1 {
   color: #6b3622;
@@ -7981,7 +7996,6 @@ textarea.form-control-lg {
   margin-bottom: 25px; }
 
 #contacto .contacto-section .contacto-form {
-  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -7990,7 +8004,8 @@ textarea.form-control-lg {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
-  align-items: center; }
+  align-items: center;
+  margin-top: 5rem; }
 
 #contacto .contacto-section .contacto-form .contacto-form-inputs input {
   width: 400px;
@@ -8016,7 +8031,8 @@ textarea.form-control-lg {
 #contacto .contacto-section .contacto-form .contacto-form-buttons {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  width: 100%; }
 
 #contacto .contacto-section .contacto-form .contacto-form-buttons input {
   padding: 10px 15px;
@@ -8030,6 +8046,48 @@ textarea.form-control-lg {
 #contacto .contacto-section .contacto-form .contacto-form-buttons input:hover {
   background-color: #e6107e;
   cursor: pointer; }
+
+@media (max-width: 575.98px) {
+  #contacto .contacto-contenido {
+    max-width: 50rem;
+    margin: 2rem 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center; }
+  #contacto .contacto-contenido-left {
+    width: 90%; }
+  #contacto .contacto-contenido-right {
+    width: 90%;
+    text-align: center; }
+  #contacto .contacto-contenido-right h1, #contacto .contacto-contenido-right .h1 {
+    margin: 1rem 2rem; }
+  #contacto .contacto-contenido-right .contacto-svg {
+    width: 50px; }
+  #contacto .contacto-section .contacto-form {
+    width: 100%;
+    align-items: stretch; }
+  #contacto .contacto-section .contacto-form .contacto-form-inputs {
+    margin: 0; }
+  #contacto .contacto-section .contacto-form .contacto-form-inputs input {
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 10px; }
+  #contacto .contacto-section .contacto-form .contacto-form-inputs select {
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 10px;
+    align-self: center; }
+  #contacto .contacto-section .contacto-form .contacto-form-inputs textarea {
+    width: 90%;
+    margin-bottom: 15px;
+    align-self: center; }
+  #contacto .contacto-section .contacto-form .contacto-form-buttons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px; } }
 
 /***************************************************/
 /***** Opción menu (Menu) **************************/
@@ -8212,29 +8270,6 @@ textarea.form-control-lg {
     height: 40vh;
     width: 100%;
     overflow: hidden; }
-  #contacto .contacto-section .contacto-form {
-    align-items: stretch;
-    width: 90%; }
-  #contacto .contacto-section .contacto-form .contacto-form-inputs input {
-    width: 90%;
-    margin-bottom: 15px;
-    padding: 10px; }
-  #contacto .contacto-section .contacto-form .contacto-form-inputs select {
-    width: 90%;
-    margin-bottom: 15px;
-    padding: 10px;
-    align-self: center; }
-  #contacto .contacto-section .contacto-form .contacto-form-inputs textarea {
-    width: 90%;
-    margin-bottom: 15px;
-    align-self: center; }
-  #contacto .contacto-section .contacto-form .contacto-form-buttons {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-    width: 90%;
-    margin: 0 auto;
-    padding-bottom: 20px; }
   #nosotros .nosotros-section .nosotros-content {
     margin-right: 0;
     margin-bottom: 20px;

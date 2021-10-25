@@ -112,34 +112,7 @@
     width: 100%;
     overflow: hidden;
   }
-  #contacto .contacto-section .contacto-form {
-    align-items: stretch;
-    width: 90%;
-  }
-  #contacto .contacto-section .contacto-form .contacto-form-inputs input {
-    width: 90%;
-    margin-bottom: 15px;
-    padding: 10px;
-  }
-  #contacto .contacto-section .contacto-form .contacto-form-inputs select {
-    width: 90%;
-    margin-bottom: 15px;
-    padding: 10px;
-    align-self: center;
-  }
-  #contacto .contacto-section .contacto-form .contacto-form-inputs textarea {
-    width: 90%;
-    margin-bottom: 15px;  
-    align-self: center;
-  }
-  #contacto .contacto-section .contacto-form .contacto-form-buttons {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-    width: 90%;
-    margin: 0 auto;
-    padding-bottom: 20px;
-  }
+  
   #nosotros .nosotros-section .nosotros-content {
     margin-right: 0;
     margin-bottom: 20px;

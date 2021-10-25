@@ -67,24 +67,31 @@
 
     <main id="contacto">
       <section class="contacto-section">
-        <h1>Formulario de Contacto</h1>
-        <form action="" class="contacto-form">
-          <div class="contacto-form-inputs">
-            <input type="text" name="name" id="name" placeholder="Nombre" required>
-            <input type="text" name="email" id="email" placeholder="Email" required>
-            <select name="estadocivil" id="estadocivil">
-              <option value="S">Soltero/a</option>
-              <option value="C">Casado/a</option>
-              <option value="D">Divorciado/a</option>
-            </select>
-            <!-- <input type="checkbox" id="newsletter" name="newsletter">         -->
-            <textarea name="newsletter" id="newsletter" cols="30" rows="10" placeholder="Comentario"></textarea>
+        <div class="contacto-contenido">
+          <div class="contacto-contenido-left">
+            <form action="" class="contacto-form">
+              <div class="contacto-form-inputs">
+                <input type="text" name="name" id="name" placeholder="Nombre" required>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <select name="estadocivil" id="estadocivil">
+                  <option value="S">Soltero/a</option>
+                  <option value="C">Casado/a</option>
+                  <option value="D">Divorciado/a</option>
+                </select>
+                <!-- <input type="checkbox" id="newsletter" name="newsletter">         -->
+                <textarea name="newsletter" id="newsletter" cols="30" rows="10" placeholder="Comentario"></textarea>
+              </div>
+              <div class="contacto-form-buttons">
+                <input type="reset" value="Limpiar formulario">
+                <input type="submit" value="Enviar formulario">
+              </div>
+            </form>
           </div>
-          <div class="contacto-form-buttons">
-            <input type="reset" value="Limpiar formulario">
-            <input type="submit" value="Enviar formulario">
+          <div class="contacto-contenido-right">
+            <h1>Formulario de Contacto</h1>
+            <img class="contacto-svg" src="../multimedia/image/mailbox.svg" alt="mailbox">
           </div>
-        </form>
+        </div> 
       </section>
     </main>
 
